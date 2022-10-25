@@ -20,7 +20,7 @@ my_apps = []
 for foldername, subfolders, filenames in os.walk(directory):
            for f in filenames:
               fl = f.split(".")[1]
-              if (fl == 'json'):
+              if (fl == 'session'):
                   base = f.split('.')[0]
                   my_apps.append(base)
 #
